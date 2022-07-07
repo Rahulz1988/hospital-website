@@ -66,10 +66,10 @@ ul
 p
 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 2;
 	font-weight: 500;
-	color: #696969;
+	color: #000000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -695,7 +695,7 @@ section
 {
 		font-size: 69.24px;
 	font-weight: 900;
-	color: #006400;
+	color:#540d37;
 	line-height: 1.0398;
 }
 .home_text
@@ -708,7 +708,7 @@ section
 {
 font-size: 26px;
 	font-weight: 500;
-	color: #808000;
+	color: #540d37;
 	line-height: 1.75;
 }
 .home_button
@@ -805,7 +805,7 @@ font-size: 26px;
 }
 .box_phone
 {
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 400;
 	color: #20d34a;
 	margin-top: 20px;
@@ -841,7 +841,9 @@ font-size: 26px;
 .about_text
 {
 	margin-top: 34px;
+	
 	text-align: justify;
+	
 }
 .about_button
 {
@@ -1044,7 +1046,8 @@ font-size: 26px;
 }
 .service_text p
 {
-	color: #696969;
+	color: #000000;
+	text-align: justify;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1266,12 +1269,12 @@ font-size: 26px;
 {
 	margin-bottom: 38px;
 }
-.copyright
+.foot
 {
 	width: 100%;
 	background: #020523;
 }
-.copyright_content
+.foot_content
 {
 	width: 100%;
 	height: 62px;
