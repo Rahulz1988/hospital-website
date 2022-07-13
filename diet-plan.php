@@ -5,7 +5,7 @@ ini_set('display_errors', 0);
 
     $message = "<b>Name : ".$_POST['name']."</b></br>";
     $message .= "<b>Email : ".$_POST['email']."</b></br>";
-    $message .= "<b>Contact : ".$_POST['contact']."</b></br>";
+    $message .= "<b>Contact : ".$_POST['number']."</b></br>";
     $message .= "<b>Weight : ".$_POST['weight']."</b></br>";
     $message .= "<b>Height : ".$_POST['height']."</b></br>";
     $message .= "<b>Looking For : ".$_POST['looking-for']."</b></br>";
