@@ -124,25 +124,25 @@
 				<!-- Contact Form -->
 				<div class="col-lg-6 form_col">
 					<div class="contact_form_container">
-						<form action="#" id="contact_form" class="contact_form">
+						<form action="infertility.php" method="POST" id="contact_form" class="contact_form">
 							<div class="row">
 								<div class="col-md-6 input_col">
-									<div class="input_container input_name"><input type="text" class="contact_input" placeholder="Name" required="required"></div>
+									<div class="input_container input_name"><input type="text" class="contact_input" placeholder="Name" name="name" required="required"></div>
 								</div>
 								<div class="col-md-6 input_col">
-									<div class="input_container"><input type="email" class="contact_input" placeholder="E-mail" required="required"></div>
+									<div class="input_container"><input type="email" class="contact_input" placeholder="E-mail" name="email" required="required"></div>
 									
 								</div>
 												
 												
 							</div>
-							<div class="input_container"><input type="text" class="contact_input" placeholder="Contact number" required="required"></div>
-							<div class="input_container"><input type="text" class="contact_input" placeholder="Have you undergone prior treatments. (Yes/No)" required="required"></div>
-							<div class="input_container"><input type="text" class="contact_input" placeholder="Subject" required="required"></div>
+							<div class="input_container"><input type="text" class="contact_input" placeholder="Contact number" name="contact" required="required"></div>
+							<div class="input_container"><input type="text" class="contact_input" placeholder="Have you undergone prior treatments. (Yes/No)" name="history" required="required"></div>
+							<div class="input_container"><input type="text" class="contact_input" placeholder="Subject" name="subject" required="required"></div>
 							
 							
-							<div class="input_container"><textarea class="contact_input contact_text_area" placeholder="Give more details on your Concerns. Our medical expert will contact you back" required="required"></textarea></div>
-							<button class="button contact_button"><a href="#">send</a></button>
+							<div class="input_container"><textarea class="contact_input contact_text_area" placeholder="Give more details on your Concerns. Our medical expert will contact you back" name="details" required="required"></textarea></div>
+							<button class="button contact_button pl-5 pr-5">Send</button>
 						</form>
 					</div>
 				</div>
