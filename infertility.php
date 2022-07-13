@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 ini_set('display_errors', 0);
-    $subject = $_POST['name']." - Diet Plan";
+    $subject = $_POST['name']." - Infertility";
 
     $message = "<b>Name : ".$_POST['name']."</b></br>";
     $message .= "<b>Email : ".$_POST['email']."</b></br>";
